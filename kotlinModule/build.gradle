@@ -1,0 +1,11 @@
+plugins {
+	id 'java-library'
+	id 'kotlin'
+}
+
+//tasks.findByName("compileKotlin").dependsOn(tasks.getByName("spotlessCheck"))
+
+java {
+	sourceCompatibility = JavaVersion.VERSION_1_7
+	targetCompatibility = JavaVersion.VERSION_1_7
+}
